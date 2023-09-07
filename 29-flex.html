@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: tahoma;
+        }
+
+        .title {
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        .MyContainer {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .Seton {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .Seton img {
+            margin-top: 5px;
+            vertical-align: middle;
+            max-width: 100%;
+        }
+
+        /* وقتی عرض صفحه کمتر از 600 پیکسل شد */
+        @media (max-width: 600px) {
+            .Seton {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="title">
+        <h2>گالری عکس با چینش نامرتب</h2>
+        <p><b>در گوشی موبایل همه عکسا میوفتن زیرهم</b></p>
+      </div>
+      
+      
+      <div class="MyContainer">
+      
+      <div class="Seton">
+       <img src="files/ig-4.jpg" style="width:100%">
+       <img src="files/ig-2.jpg" style="width:100%">
+       <img src="files/ig-3.jpg" style="width:100%">
+       <img src="files/ig-1.jpg" style="width:100%">
+      </div>
+        
+      <div class="Seton">
+       <img src="files/ig-1.jpg" style="width:100%">
+       <img src="files/ig-5.jpg" style="width:100%">
+       <img src="files/ig-2.jpg" style="width:100%">
+       <img src="files/ig-3.jpg" style="width:100%">
+      </div> 
+         
+      <div class="Seton">
+       <img src="files/ig-5.jpg" style="width:100%">
+       <img src="files/ig-2.jpg" style="width:100%">
+       <img src="files/ig-3.jpg" style="width:100%">
+       <img src="files/ig-1.jpg" style="width:100%">
+      </div>
+        
+      <div class="Seton">
+       <img src="files/ig-1.jpg" style="width:100%">
+       <img src="files/ig-3.jpg" style="width:100%">
+       <img src="files/ig-5.jpg" style="width:100%">
+       <img src="files/ig-4.jpg" style="width:100%">
+      </div>
+
+</body>
+
+</html>
