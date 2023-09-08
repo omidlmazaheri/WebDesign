@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* وقتی عرض صفحه نمایش کمتر از 400پیکسل باشه */
+        body{
+         background-color: #2196F3;
+         color: #fff;
+         text-align: center;
+        }
+        
+        .Msg-1{ display:block; }
+        .Msg-2{ display:none; }
+        .Msg-3{ display:none; }
+        
+        
+        /* وقتی عرض صفحه نمایش بین 400 پیکسل و 800 پیکسل باشه */
+        @media screen and (min-width: 400px) {
+          body {
+           background-color: #8AC007;
+           text-align: center;
+          }
+          .Msg-1{ display:none; }
+          .Msg-2{ display:block; }
+          .Msg-3{ display:none; }
+        }
+        
+        
+        /* وقتی عرض صفحه نمایش از 800 پیکسل به بالا باشه */
+        @media screen and (min-width: 800px) {
+          body {
+           background-color: #9C27B0;
+           text-align: center;
+          }
+         .Msg-1{ display:none; }
+         .Msg-2{ display:none; }
+         .Msg-3{ display:block; }
+        }
+        
+        </style>
+</head>
+<body dir="rtl">
+
+    <p><b>لطفا صفحه را تغییر اندازه دهید</b></p>
+    <h3 class="Msg-1">الان عرض صفحه نمایش کمتر از 400 پیکسل هست</h3>
+    <h3 class="Msg-2">الان عرض صفحه نمایش بین 400 تا 800 پیکسل هست</h3>
+    <h3 class="Msg-3">الان عرض صفحه نمایش بیشتر از 800 پیکسل هست</h3>
+    
+    </body>
+</html>

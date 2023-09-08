@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .MyMessage {
+         display:none;
+        }
+        
+        /* وقتی اندازه صفحه کمتر از 500 پیکسل شد */
+        @media screen and (max-width: 500px) {
+         img.MyImage {
+          display: none;
+         }
+         .MyMessage {
+          display: block;
+         }
+        }
+        
+        </style>
+</head>
+<body>
+    
+<p class="MyMessage"><b>عکس نشون داده نمیشه، چون الان با گوشی موبایل وارد این صفحه شدید</b></p>
+<img src="files/girls-2.png" class="MyImage">
+</body>
+</html>

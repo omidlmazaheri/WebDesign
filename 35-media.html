@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            direction: rtl;
+        }
+
+        /* وقتی گوشی در حالت عمودی بود */
+        @media only screen and (orientation: portrait) {
+            body {
+                background-color: #FF5722;
+                color: #fff;
+            }
+
+            h2.portrait {
+                display: block;
+            }
+
+            h2.landscape {
+                display: none;
+            }
+        }
+
+        /* وقتی گوشی در حالت افقی بود */
+        @media only screen and (orientation: landscape) {
+            body {
+                background-color: #607D8B;
+                color: #fff;
+            }
+
+            h2.portrait {
+                display: none;
+            }
+
+            h2.landscape {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="portrait">الان در حالت عمودی یا Portrait می باشد</h2>
+    <h2 class="landscape">الان در حالت افقی یا LandScape می باشید</h2>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            box-sizing: border-box;
+        } */
+
+
+
+        .seton-rast {
+            float: right;
+            width: 50%;
+            background-color: #607D8B;
+            color: #fff;
+            text-align: center;
+        }
+
+        .seton-chap {
+            float: right;
+            width: 50%;
+            background-color: #9C27B0;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* وقتی اندازه صفحه کمتر از 500 پیکسل شد */
+        @media only screen and (max-width: 500px) {
+
+            .seton-rast,
+            .seton-chap {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <p><b>در گوشی موبایل، ستون ها میوفتن زیر هم</b></p>
+
+    <div class="zarf">
+        <div class="seton-rast">ستون 1</div>
+        <div class="seton-chap">ستون 2</div>
+    </div>
+
+</body>
+
+</html>

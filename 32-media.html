@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.myimg {
+        float: left;
+        width: 33.33%;
+    }
+
+    /* وقتی اندازه صفحه کمتر از 500 پیکسل شد */
+    @media screen and (max-width: 500px) {
+        div.myimg {
+            float: none;
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div class="zarf">
+        <div class="myimg">
+            <img src="files/img_galleri_1.jpg">
+        </div>
+        <div class="myimg">
+            <img src="files/img_galleri_2.jpg">
+        </div>
+        <div class="myimg">
+            <img src="files/img_galleri_3.jpg">
+        </div>
+    </div>
+
+    <div class="zarf">
+        <div class="myimg">
+            <img src="files/img_galleri_1.jpg">
+        </div>
+        <div class="myimg">
+            <img src="files/img_galleri_2.jpg">
+        </div>
+        <div class="myimg">
+            <img src="files/img_galleri_3.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
