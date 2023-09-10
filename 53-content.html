@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  counter-increment: myIndex;
+}
+
+p::before {
+  content:counter(myIndex);
+}
+</style>
+</head>
+<body>
+
+<p>First make a variable (myIndex) and make it increase every time a p element occurs.</p>
+<p>Then insert the counter in front of all p elements</p>
+
+</body>
+</html>

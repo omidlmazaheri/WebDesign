@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p::before {
+  content: open-quote;
+}
+
+p::after {
+  content: close-quote;
+}
+
+p.hometown::before {
+  content: no-open-quote;
+}
+
+p.hometown::after {
+  content: no-close-quote;
+}
+</style>
+</head>
+<body>
+
+<p>My name is Donald</p>
+<p class="hometown">I live in Ducksburg</p>
+
+<p><b>Note:</b>In this page, p elements should have quotes, but p elements with class="hometown" should not.</p>
+<p><b>Note:</b> You cannot have "close-quote" without "open-quote".</p>
+
+</body>
+</html>
