@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+    <style>
+        body {
+
+            direction: rtl;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: Vazirmatn;
+        }
+
+        input[type=text],
+        input[type=tel],
+        input[type=email],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            width: 100%;
+            cursor: pointer;
+            margin: auto;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .container {
+            display: flex;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .container div{
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>تماس با ما</h3>
+
+
+    <form action="/action_page.php">
+        <div class="container">
+            <div>
+                <label for="fname">نام</label>
+                <input type="text" id="fname" name="firstname" placeholder="نام شما..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last-name" placeholder="نام خانوادگی شما..">
+
+                <label for="phone">تلفن تماس</label>
+                <input type="tel" id="phone" name="phone" placeholder="تلفن همراه..">
+
+                <label for="email">پست الکترونیکی</label>
+                <input type="email" id="email" name="email" placeholder="پست الکترونیکی">
+                <input type="submit" value="تایید">
+
+            </div>
+
+            <div>
+                <label for="subject">موضوع</label>
+                <select id="subject" name="subject">
+                    <option value="01">پروژه</option>
+                    <option value="02">مشاوره</option>
+                </select>
+
+                <label for="meeting">درخواست ملاقات</label>
+                <select id="meeting" name="meeting">
+                    <option value="01">حضوری</option>
+                    <option value="02">مجازی</option>
+                </select>
+
+                <label for="desc">توضیحات</label>
+                <textarea id="desc" name="desc" placeholder="توضیحی بنویسید.." style="height:200px"></textarea>
+
+                
+            </div>
+            
+        </div>
+        
+    </form>
+    </div>
+
+</body>
+
+</html>
