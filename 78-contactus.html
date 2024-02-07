@@ -1,0 +1,108 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* Style the container with a rounded border, grey background and some padding and margin */
+    *{
+      box-sizing: border-box;
+      font-family: vazirmatn;
+    }
+    body{
+      direction: rtl;
+    }
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Style the input elements and the submit button */
+    input[type=text], input[type=email], input[type=tel], textarea, button {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    /* Style the label to display next to the inputs */
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+    /* Style the submit button */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* Add a background color and some padding around the form */
+    .form {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    /* Use media queries for responsiveness */
+    @media (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>ارتباط با ما</h2>
+    <p>لطفا فرم زیر را پر کنید و ما در اسرع وقت با شما تماس خواهیم گرفت.</p>
+    <form action="/action_page.php">
+      <div class="form">
+        <div class="row">
+          <div class="col-25">
+            <label for="name">نام</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">ایمیل</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="phone">تلفن</label>
+          </div>
+          <div class="col-75">
+            <input type="tel" id="phone" name="phone" placeholder="تلفن خود را وارد کنید..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="message">پیام</label>
+          </div>
+          <div class="col-75">
+            <textarea id="message" name="message" placeholder="پیام خود را بنویسید.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <button type="submit">ارسال</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
