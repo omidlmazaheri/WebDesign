@@ -1,0 +1,87 @@
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* Style the container with a rounded border, grey background and some padding and margin */
+    *{
+      font-family: vazirmatn;
+      box-sizing: border-box;
+    }
+    body{
+      direction: rtl;
+    }
+    .container{
+      display: flex;
+    }
+    .card {
+      border: 2px solid #ccc;
+      background-color: #eee;
+      border-radius: 5px;
+      padding: 16px;
+      margin: 16px 5px;
+      text-align: justify;
+      flex:25%;
+    }
+
+    /* Clear floats after containers */
+    .card::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+    .card img {
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+    }
+
+    /* Increase the font-size of a span element */
+    .card span {
+      font-size: smaller;
+      margin-right: 15px;
+    }
+
+    /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+    @media (max-width: 500px) {
+      .container{
+        flex-direction: column;
+      }
+      .card {
+        text-align: center;
+      }
+      .card img {
+        margin: auto;
+        float: none;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="avatar_g2.jpg" alt="Rebecca" style="width:90px">
+      <p>مریم<span>مدیر شرکت</span> </p>
+      <p>من عاشق سبکی هستم که سالن زیبایی به من داده است. آنها بسیار حرفه ای و دوستانه هستند. من به شدت آنها را توصیه می کنم.</p>
+    </div>
+    <div class="card">
+      <img src="avatar_g2.jpg" alt="James" style="width:90px">
+      <p>محمد<span>مدیر بازاریابی در آژانس.</span> </p>
+      <p>سالن زیبایی شگفت انگیز است. آنها نگاه من را متحول کردند و اعتماد به نفسم را افزایش دادند. آنها بهترین های شهر هستند.</p>
+    </div>
+    <div class="card">
+      <img src="avatar_g2.jpg" alt="Sarah" style="width:90px">
+      <p>سارا<span>معلم مدرسه</span></p>
+      <p>من تجربه خوبی در سالن زیبایی داشتم. آنها بسیار ماهر و توجه هستند. آنها به من احساس ستاره بودن دادند</p>
+    </div>
+    <div class="card">
+      <img src="avatar_g2.jpg" alt="David" style="width:90px">
+      <p>نادر<span>طراح فریلنسر</span> </p>
+      <p>سالن زیبایی فوق العاده است. آنها بسیار خلاق و انعطاف پذیر هستند. آنها همیشه آنچه را که من می خواهم تحویل می دهند</p>
+    </div>
+  </div>
+
+</body>
+</html>
