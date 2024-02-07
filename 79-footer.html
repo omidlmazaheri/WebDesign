@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <!-- Add the link to the font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Style the footer with a dark background, white text and some padding */
+    footer {
+      background-color: #333333;
+      color: white;
+      padding: 20px;
+    }
+
+    /* Style the links in the footer with a lighter color */
+    footer a {
+      color: #cccccc;
+      text-decoration: none;
+    }
+
+    /* Add hover effects to the links in the footer */
+    footer a:hover {
+      color: #ffffff;
+    }
+
+    /* Style the logo in the footer with a border and some margin */
+    footer .logo {
+      border: 1px solid white;
+      margin: 10px;
+    }
+
+    /* Use flexbox to create a responsive layout for the footer */
+    footer .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Use media queries for responsiveness */
+    @media (max-width: 600px) {
+      footer .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Add the footer element with a container div inside -->
+  <footer>
+    <div class="container">
+      <!-- Add the logo image with a link to the home page -->
+      <a href="index.html"><img src="logo.png" alt="Logo" class="logo"></a>
+      <!-- Add some links to the footer with a horizontal list -->
+      <ul style="list-style-type: none; display: flex;">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- Add some social media icons to the footer with a horizontal list -->
+      <ul style="list-style-type: none; display: flex;">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
