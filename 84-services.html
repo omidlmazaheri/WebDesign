@@ -1,0 +1,86 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* Style the services section with a light background, some padding and margin */
+   *{
+    font-family: vazirmatn;
+    direction: rtl;
+   }
+   
+    .services {
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    /* Style the service cards with a white background, a shadow and some padding */
+    .service-card {
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding: 16px;
+      max-width: 300px;
+      margin: 10px;
+      text-align: justify;
+    }
+
+    /* Style the service icons with a color and some margin */
+    .service-icon {
+      color: #04AA6D;
+      margin: 10px;
+      font-size: xx-large;
+    }
+
+    /* Style the service titles with a bold font and some margin */
+    .service-title {
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    /* Style the service descriptions with a gray color and some margin */
+    .service-description {
+      color: gray;
+      margin: 10px;
+    }
+
+    /* Use flexbox to create a responsive layout for the services section */
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Use media queries for responsiveness */
+    @media (max-width: 600px) {
+      .services {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Add the services section with some service cards inside -->
+  <div class="services">
+    <!-- Add the first service card with an icon, a title and a description -->
+    <div class="service-card">
+        <i class="fas fa-cut service-icon"></i>
+      <h3 class="service-title">آرایش مو</h3>
+      <p class="service-description">ما به شما کمک می‌کنیم که موهای خود را به بهترین شکل ممکن آرایش کنید. ما از بهترین محصولات و تکنیک‌های آرایش مو استفاده می‌کنیم.</p>
+    </div>
+    <!-- Add the second service card with an icon, a title and a description -->
+    <div class="service-card">
+      <i class="fas fa-paint-brush service-icon"></i>
+      <h3 class="service-title">آرایش صورت</h3>
+      <p class="service-description">ما به شما کمک می‌کنیم که صورت خود را با محصولات کیفیت بالا و رنگ‌های مناسب آرایش کنید. ما از آخرین روش‌های آرایش صورت آگاه هستیم.</p>
+    </div>
+    <!-- Add the third service card with an icon, a title and a description -->
+    <div class="service-card">
+      <i class="fas fa-hand-sparkles service-icon"></i>
+      <h3 class="service-title">مراقبت از پوست</h3>
+      <p class="service-description">ما به شما کمک می‌کنیم که پوست خود را با ماسک‌ها، پیلینگ‌ها و محصولات مرطوب کننده مراقبت کنید. ما از محصولات طبیعی و سالم استفاده می‌کنیم.</p>
+    </div>
+  </div>
+</body>
+</html>
