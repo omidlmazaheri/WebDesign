@@ -1,0 +1,60 @@
+header{
+    padding: 50px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: yellow;
+}
+.SocialMedias{
+    margin-left: 10px;
+}
+nav{
+    padding: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.menuesitem{
+    margin-left: 15px;
+}
+#slider{
+    padding: 100px;
+    background-color: #e09a9a;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#intro{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 50px;
+}
+#services{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 50px;
+}
+#Customers{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 50px;
+}
+#contactUs{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+footer{
+    padding: 100px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: yellow;
+}
+.footerItems{
+    margin-left: 15px;
+    
+}
