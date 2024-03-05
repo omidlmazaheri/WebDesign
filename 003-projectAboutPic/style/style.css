@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.b-card {
+    float: right;
+    width: 33.3%;
+    padding: 5px;
+    border: 1px solid black;
+}
