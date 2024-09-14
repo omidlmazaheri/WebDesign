@@ -1,0 +1,68 @@
+uname: omidlmazaheri
+pw: HjCO74aReWhAFkUP1j
+lKKprPurzOzem4rwrm
+!75ZhpdlPJ*m#dAG4OGWaj9G
+-----------------------
+databasename: wmdb
+username: root
+password:-
+------woodmart-----
+username: admin
+password: 123456789
+-----------
+database name: omidlmir_db
+database username: omidlmir_admin
+database password: !~EQk=yMCe;7
+site username: admin_qw63p4w1
+site password: t@srF5wytG02ZNr$
+email: admin@omidlm.ir
+google-site-verification=0a0KmB3wCgAMY0N_5B7Hx4yu4H-RYvM3qu05ZW1rpHI
+irnic: ol67-irnic
+password: omid@0225
+pe134-irnic
+ns464.phtco.com
+ns465.phtco.com
+---------------------------------
+net afzar
+user name: omidlmir
+password: 0s-CFs:YzlC006
+irnic: ne346-irnic
+
+--------------------------------
+omidlm.ir netafzar
+
+Name servers:
+irns1.netafraz.com
+irns2.netafraz.com
+
+databasename: omidlmir_db
+username: omidlmir_admin
+password: d&YuuTTHUXj)np*6
+website:
+username: visha
+password: oD0@#4wA
+username: vishaweb.net
+password: d^yCP56#
+username: omidlak
+password: *AOsgYORt2gcRNTBY*HdpDDn
+email:
+iam@omidlm.ir
+password: Omid@0225
+panel:
+username: omidlmir
+password: 0s-CFs:YzlC006
+---------------------------------
+omidlak.ir
+panel:
+username: omidlaki
+password: )bsJ[08YiW85Al
+https://cp132.netafraz.com:2223
+---------------------------
+omidlak.ir wordpress
+database:
+databasename: omidlaki_db
+username: omidlaki_admin
+password: Omid@123
+website:
+username: omidlak-admin
+password: omid@0225
